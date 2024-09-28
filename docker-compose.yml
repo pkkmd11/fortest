@@ -27,8 +27,8 @@ services:
    
     environment:
       MYSQL_ROOT_PASSWORD: example
-    volumes:
-      - ./db:/var/lib/mysql
+    # volumes:
+    #   - ./db:/var/lib/mysql
 
 volumes:
   ghost:
