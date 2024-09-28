@@ -30,6 +30,6 @@ services:
     # volumes:
     #   - ./db:/var/lib/mysql
 
-volumes:
-  ghost:
-  db:
+# volumes:
+#   ghost:
+#   db:
